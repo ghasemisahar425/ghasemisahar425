@@ -2,39 +2,52 @@
 
 using namespace std;
 
-int main(){
-	
-	int s ;
-	float t;
-	cout << "please enter your salary:";
-	cin >> s;
-    if (s < 6000000 ){
-    	t= s* 0.0;
-    	cout <<t;
-	}
-	else if(s>=6000000&&s<8000000){
-        t=s*0.05;
-	    cout <<"your taxes:"<<t;
-	}
-	else if (s>=8000000&&s<10000000){
-     	t=s*0.10;
-    	cout<<"your taxes:"<<t;
-}
-	else if (s>=10000000&&s<14000000){
-		t=s*0.15;
-		cout<<"your taxes:"<<t;
-	}
-	else if (s>=14000000&&s<18000000){
-		t=s*0.20;
-		cout<<"your taxes:"<<t;
-	}
-	else if (s>=18000000&&s<25000000){
-		t=s*0.25;
-		cout<<"your taxes"<<t;
-	}
-    else {
-    	t=s*0.35;
-    	cout<<"your taxes"<<t;
-	}
+int main() {
+	char x;
+   	cout<<"please write the letter:";
+	cin>>x;
+    switch (x){
+    	case 'a':{
+    		x='a';
+		cout<<"is vowel:"<<x<<"  ";
+        	break;
+		}
+    	case 'A':{
+    		x='A';
+		cout<<"is vowel:"<<x<<"  ";
+        	break;
+		}
+    	case 'e':{
+    		x='e';
+		cout<<"is vowel:"<<x<<"  ";
+        	break;
+		}
+    	case 'E':{
+    		x='E';
+		cout<<"is vowel:"<<x<<"  ";
+        	break;
+		}		
+    	case 'i':{
+    		x='i';
+		cout<<"is vowel:"<<x<<"  ";
+        	break;
+		}
+    	case 'I':{
+    		x='I';
+		cout<<"is vowel:"<<x<<"  ";
+        	break;
+		}
+    	case 'o':{
+    		x='o';
+		cout<<"is vowel:"<<x<<"  ";
+        	break;
+		}	
+    	case 'O':{
+    		x='O';
+		cout<<"is vowel:"<<x<<"  ";
+        	break;
+		}		
+
+	    }
 
 }
