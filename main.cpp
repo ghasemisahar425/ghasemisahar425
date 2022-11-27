@@ -3,19 +3,15 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-	int m , n , h=0;
-	 cout<< "enter the num1 : ";
-	 cin>>m;
-	 cout<< "enter the num2 : ";
-	 cin>>n;
-	 while ( m>=n ){
-	 	h+=1;
-	 	m-=n;
-	 }
-		cout<< " maghsom :" << h;
-		cout<<"\n baghimande :"<< m;
-			 
-	 
-	 
-	 
+    int n , i , sum; 
+    cout<<" enter number  :";
+    cin >>n;
+    sum = 0;
+    for(int i = 1; i <= n ; i++){
+        if( n % i == 0 ){
+            sum+=i;
+            cout <<i<<"\n";
+        }
+    }
+    cout <<"majmou :"<<sum;
 }
