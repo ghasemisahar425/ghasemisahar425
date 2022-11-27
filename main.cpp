@@ -3,17 +3,19 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-	int i , x , n , sum = 1;
-	 cout<< "enter first number :";
-	 cin>> x ;
-	 cout<< "enter seconed number :";
-	 cin>> n ; 
-	 for (i=1 ; i<=n ; i++){
-	    sum*=x;
-		cout << sum << "\n";
+	int m , n , h=0;
+	 cout<< "enter the num1 : ";
+	 cin>>m;
+	 cout<< "enter the num2 : ";
+	 cin>>n;
+	 while ( m>=n ){
+	 	h+=1;
+	 	m-=n;
 	 }
-	  cout<< " etmem ";
-	
-	
-	
+		cout<< " maghsom :" << h;
+		cout<<"\n baghimande :"<< m;
+			 
+	 
+	 
+	 
 }
