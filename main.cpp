@@ -1,20 +1,31 @@
-#include <iostream>
+#include<iostream>
 
 using namespace std;
-
-int main(int argc, char** argv) {
-
-	int n,x=2,i,k,sum=0;
-	cout<<"enter a num:";
-	cin>>n;
-		do{for (i=2,k=0;i<=x/2&&k==0;i++)
-			if(x%i==0)
-			k++;
-		if(k==0)
-		  cout << x << "  ";
-		 x++;
-		 }
-		while (x<=n);{
-			
-		}
-    	}
+int main()
+{
+ int x=10 , i;
+float a[x] , sum ;
+    cout<<"number :";
+    
+    cin>>a[0];
+        int max=a[0];
+	cout<<"number : ";
+	cin>>a[1];
+		int min=a[1];
+			for(int i=2 ; i<x ; i++)
+			{	
+	cout<<"number : ";
+	cin>>a[i];
+			}
+			for(int i=0 ; i<x ; i++)
+			{				
+		if(a[i]>max)
+		max=a[i];
+		else if(a[i]<min)
+		min=a[i];	
+			}
+			sum=(min+max)/2;
+cout<<"max is :" <<max<<endl;
+cout<<"min is :" <<min<<endl;
+cout<<"myangin is :"<<sum;
+}
