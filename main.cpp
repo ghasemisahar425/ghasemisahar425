@@ -1,31 +1,67 @@
-#include<iostream>
+#include <iostream>
+# define int [i] 4 int[j] 4
 
 using namespace std;
-int main()
+
+int main(int argc, char** argv) 
 {
- int x=10 , i;
-float a[x] , sum ;
-    cout<<"number :";
-    
-    cin>>a[0];
-        int max=a[0];
-	cout<<"number : ";
-	cin>>a[1];
-		int min=a[1];
-			for(int i=2 ; i<x ; i++)
-			{	
-	cout<<"number : ";
-	cin>>a[i];
-			}
-			for(int i=0 ; i<x ; i++)
-			{				
-		if(a[i]>max)
-		max=a[i];
-		else if(a[i]<min)
-		min=a[i];	
-			}
-			sum=(min+max)/2;
-cout<<"max is :" <<max<<endl;
-cout<<"min is :" <<min<<endl;
-cout<<"myangin is :"<<sum;
+
+//    const float result[0];
+    int  i,a,b,j,sum[i,num[j]];
+        cout<<"Enter a"<<i<<endl;
+	    for(i=0;i<=4;i++){
+	    	cin>> a;
+	    	
+		}
+        cout<<"Enter b"<<endl;
+        for(j=0;j<=4;j++){
+        cin>>b;	
+		}
+			
+        for (int i = 0; i < 2; ++i){
+        if(sum[i]==num[j]){
+		    for (int j = 0; j < 2; ++j){
+				result[i][j] = sum[i][j] + num[i][j];
 }
+}
+}
+
+		}
+//        for(w=0;w)
+  //      a+=b;
+    //    b=a-b;
+      //  a=a-b;
+       // cout<<"a ="<<a<<endl;
+        //cout<<"b ="<<b<<endl;
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
